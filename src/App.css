@@ -1,0 +1,164 @@
+.App {
+  font-family: "Source Sans Pro",sans-serif;
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.search-container {
+  padding-top: 20px;
+}
+
+.search-input {
+  border: 1px solid #962d91;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 9px 35px 5px 10px;
+  color: #962d91;
+}
+
+.search-input-container {
+  width: fit-content;
+  margin-left: auto;
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  margin: auto;
+}
+
+.search-input:focus, .search-input:active {
+  border: 1px solid #962d91;
+  outline: none;
+}
+
+.suggestions-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ccc;
+  z-index: 10;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  margin-top: 10px;
+  width: -webkit-fill-available;
+}
+
+.suggestions-list li {
+  padding: 9px 10px;
+  font-size: 16px;
+  background-color: #002d64;
+  color: white !important;
+  border: none;
+  box-shadow: none;
+}
+
+.search-input-container {
+  text-align: right;
+}
+
+.clear-button {
+  margin-left: 2px;
+  background-color: #962d91;
+  color: white;
+  border-radius: 20px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  padding-inline: 8px;
+  cursor: pointer;
+}
+
+.xmark-icon {
+  width: 10px;
+  margin-left: 5px;
+}
+
+.reviews-container {
+  display: grid;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+
+.reviews-count {
+  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+
+.review-item {
+  border-left: 3px solid #002d64;
+  padding-left: 15px;
+}
+
+.review-title {
+  margin: 0 0 3px;
+  margin-bottom: .1875rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #002d64;
+}
+
+.review-title:hover {
+  text-decoration: underline;;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.review-authors {
+  font-size: 14px;
+}
+
+.review-date {
+  font-size: 14px;
+  color: #962d91;
+  margin-bottom: 0;
+}
