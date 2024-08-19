@@ -23,3 +23,16 @@ To run this project locally, follow these steps:
 ```bash
 git clone https://github.com/your-username/cochrane-frontend.git
 cd cochrane-frontend
+```
+
+### Install Dependencies
+
+```npm install
+```
+
+### Run the Application
+
+This will start the development server and open the application in your default web browser at http://localhost:3000.
+
+```npm start
+```
