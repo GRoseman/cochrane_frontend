@@ -18,11 +18,12 @@ To run this project locally, follow these steps:
 
 - Node.js (v18 or later) and npm (Node Package Manager)
 
-### Clone the Repository
+### Navigate to the Project Directory
+
+Open a terminal or command prompt and navigate to the project directory:
 
 ```bash
-git clone https://github.com/your-username/cochrane-frontend.git
-cd cochrane-frontend
+cd path/to/extracted/cochrane-frontend
 ```
 
 ### Install Dependencies
